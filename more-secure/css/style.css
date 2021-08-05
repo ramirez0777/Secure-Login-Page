@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&family=Nunito&display=swap');
+*
+{
+	margin: 0;	padding: 0;	box-sizing: border-box;
+}
+
+body
+{
+	/* background-image: url(../img/bg.png) */
+	background-color: #324f67;
+}
+
+main 
+{
+	width: 60%;
+	height: 500px;
+	margin: 7% auto 0 auto;
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: #87a9c5;
+	background-image: linear-gradient(to right, #87a9c5, #F4F4F4, #87a9c5);
+	box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+h1
+{
+	font-family: 'Baloo Thambi 2', cursive;
+}
+
+p
+{
+	font-family: 'Nunito', sans-serif;
+}
+
+.box-1, .box-2
+{
+	height: 100%;
+	display: inline-block;
+}
+
+.box-1
+{
+	width: 60%;
+	/* background-color: #C0D2E1;	 */
+	background-image: linear-gradient(to right,  #87a9c5, #F4F4F4);
+}
+
+.box-2
+{
+	width: 40%;
+
+	background-image: url(../img/b1.png);
+	/* background-image: linear-gradient(to right,  #f6bcf6, #e74be7); */
+}
+
+form
+{
+	margin: 30% auto 0 auto;
+	width: 80%;
+}
+
+.buttons
+{
+	width: 100%;
+	border-radius: 9px;
+	border: 1.5px solid #C0D2E1;
+	padding: 5px;
+	margin: 5% auto 0 auto;
+	background-color: #E6E6E6;
+}
+
+.user, .pass
+{
+	width: 100%;
+	padding: 3px;
+	border: 0;
+	margin-bottom: 50px;
+	background-color: #F4F4F4;
+	border-bottom: 1px solid #324f67;
+	padding: 5px;
+}
+
+.user::placeholder, .pass::placeholder
+{
+	color: black;
+}
+
+.user:focus, .pass:focus
+{
+	background-color: #C0D2E1;
+	border-bottom: 1px solid #F4F4F4;
+}
+
+.welcome, .error
+{
+	text-align: center;
+	margin-top: 30%;
+}
+
+.error
+{
+	color: red;
+}
+
+.matrix
+{
+	width: 100%;
+	height: 100%;
+}
+
+.granted
+{
+	color: green;
+}
+
+.enter
+{
+	text-align: center;
+	margin-top: 30%;
+	color: green;
+}
+
+.signup
+{
+	color: green;
+}
